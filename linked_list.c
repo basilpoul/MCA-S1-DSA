@@ -87,12 +87,12 @@ int main(){
             printf("Enter the element to insert : ");
             scanf("%d",&element);
             Insert(&head,element);
-            printf("Element Inserted");
+            printf("Element Inserted\n");
         }else if (choice==2){
             PrintList(head);
         }else if (choice==3){
             int position;
-            printf("Enter Position of element to delete");
+            printf("Enter Position of element to delete : ");
             scanf("%d",&position);
             delete(&head,position);
         }else{
