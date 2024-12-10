@@ -34,8 +34,7 @@ int main(){
             stack[top]=value;
             printf("Value inserted\n");
         }
-
-    }
+            }
 
     void pop(){
         if (isEmpty()==1){
@@ -66,7 +65,7 @@ int main(){
 
     
 
-    while (c==1){
+    while (c!=0){
         printf("What do you want to do\n1.PUSH\n2.POP\n3.PEEK\n4.DISPLAY ");
         scanf("%d",&choice);
 
@@ -94,8 +93,8 @@ int main(){
                 break;
         }
 
-        printf("Do you want to continue ? YES(1)/NO(0) ");
-        scanf("%d",c);
+        printf("\nDo you want to continue ? YES(1)/NO(0) ");
+        scanf("%d",&c);
     }    
     
 
